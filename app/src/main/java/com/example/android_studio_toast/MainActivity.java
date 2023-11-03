@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-                dialog.setNeutralButton("自定義Toast", new DialogInterface.OnClickListener(){
+                dialog.setNegativeButton("自定義Toast", new DialogInterface.OnClickListener(){
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         showToast();
                     }
                 });
 
-                dialog.setNeutralButton("顯示list", new DialogInterface.OnClickListener(){
+                dialog.setPositiveButton("顯示list", new DialogInterface.OnClickListener(){
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         showListDialog();
